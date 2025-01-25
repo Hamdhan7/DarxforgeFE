@@ -737,12 +737,18 @@
   align-items: center;
   overflow: hidden; /* Add this line */
   padding: 2vw 0vw 2vw 0vw;
+  overflow-x: auto; /* Enable horizontal scrolling */
 
+}
+.portfolio-section-video-webM::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar in webkit browsers */
 }
 
 .portfolio-video {
   width: 30vw;
   transition: transform 0.5s ease, z-index 0.5s ease;
+  scroll-snap-align: start; /* Snaps each video to the start */
+
   /*position: absolute;*/
 }
 
