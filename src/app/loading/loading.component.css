@@ -17,7 +17,7 @@
   letter-spacing: 0.1rem;
   white-space: nowrap;
   text-align: center;
-  animation: zoomIn 3s ease-in-out infinite; /* Zoom-in effect */
+  animation: zoomIn 3.3s ease-in-out infinite; /* Zoom-in effect */
   opacity: 0;
   margin: 0;
   padding: 0;
