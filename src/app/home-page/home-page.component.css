@@ -42,7 +42,7 @@
   justify-content: center;
   font-size: 6vw;
   margin: 0;
-  align-items: baseline;
+  align-items: center;
 }
 
 .heading-row-2 {
@@ -51,7 +51,7 @@
   flex-direction: row;
   justify-content: center;
   font-size: 6vw;
-  align-items: baseline;
+  align-items: center;
   text-align: center;
 
 }
@@ -62,20 +62,24 @@
   flex-direction: row;
   justify-content: center;
   font-size: 6vw;
-  align-items: baseline;
-
+  align-items: center;
+  padding-top: 1vw;
 }
 
 .your {
   color: #585858;
-  text-align: center;
+  font-size: 4vw;
   font-family: Poppins;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 200;
   line-height: normal;
   padding-right: 1rem;
   margin: 0;
 }
+
+
+
+
 .design {
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -125,7 +129,7 @@
   color: #585858;
   font-family: Poppins;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 200;
   line-height: normal;
   padding-right: 1vw;
   margin: 0;
@@ -166,13 +170,27 @@
   color: #585858;
   font-family: Poppins;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 200;
   line-height: normal;
   margin: 0;
+  font-size: 4vw;
+  padding-left: 2vw;
 
 }
 
 .pinnacle-of-brilliance {
+  color: #585858;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  padding-right: 1rem;
+  margin: 0;
+
+}
+
+.digital-excelelence {
   color: #585858;
   text-align: center;
   font-family: Poppins;
@@ -945,7 +963,15 @@
     padding: 20vw 0vw 5vw 0vw;
   }
 
-  .section-para {
+  .your {
+    padding-right: 0.5rem;
+  }
+
+  .pinnacle-of-brilliance{
+    padding-right: 0.5rem;
+
+  }
+    .section-para {
     font-size: 4vw;
     padding: 2vw 7vw 5vw 7vw;
   }
