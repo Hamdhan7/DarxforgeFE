@@ -25,7 +25,7 @@ export class AppComponent implements OnInit{
     setTimeout(() => {
       this.isLoading = false; // Stop the loading animation
       this.showMainContent = true; // Show the main content
-    }, 2300); // Adjust time according to your animation length
+    }, 3400); // Adjust time according to your animation length
   }
 
 }

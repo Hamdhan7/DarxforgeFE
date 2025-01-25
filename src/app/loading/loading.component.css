@@ -1,5 +1,6 @@
 .loading-container {
   display: flex;
+  flex-direction: column; /* Stack the name and slogan vertically */
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -9,15 +10,40 @@
 
 .loading-text {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(3rem, 10vw, 12rem); /* Dynamically scales between min 3rem and max 12rem */
+  font-size: clamp(3rem, 10vw, 12rem); /* Dynamically scales */
   font-weight: bold;
   color: #f0eaFF; /* Soft glowing text color */
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  white-space: nowrap; /* Ensures the text stays on one line */
+  white-space: nowrap;
   text-align: center;
-  animation: zoomIn 2.5s ease-in-out infinite; /* Adjusted duration for a smoother effect */
+  animation: zoomIn 3s ease-in-out infinite; /* Zoom-in effect */
   opacity: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.slogan-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(0.6rem, 2vw, 3rem); /* Dynamically scales between min 1.2rem and max 3rem */
+  font-weight: 300; /* Light font weight for a softer look */
+  color: #f0eaFF; /* Soft glowing text color */
+  text-transform: uppercase;
+  letter-spacing: 0.55rem;
+  white-space: nowrap;
+  text-align: center;
+  animation: fadeIn 3s ease-in-out infinite; /* Zoom-in effect */
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+@media (max-width: 480px) {
+
+  .slogan-text{
+    letter-spacing: 0.15rem;
+  }
 }
 
 @keyframes zoomIn {
@@ -32,5 +58,19 @@
   100% {
     transform: scale(1) translateZ(0);
     opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
