@@ -1,12 +1,5 @@
 
 .body {
-  /*background-image: url("/assets/backgroundImage.svg");*/
-  /*background-size: cover; !* Adjusts the image to cover the entire element *!*/
-  /*background-position: center; !* Centers the image *!*/
-  /*background-repeat: no-repeat; !* Prevents repeating the image *!*/
-  /*!*height: 100vh; !* Example height *!*!*/
-  /*!*backdrop-filter: blur(20px);*!*/
-  /*!*-webkit-backdrop-filter: blur(20px);*!*/
 }
 
 .navbar{
@@ -22,7 +15,7 @@
 }
 
 .section-heading {
-  background-image: url("/assets/backgroundImage.svg");
+  background-image: url("/assets/backgroundImage.webp");
   background-size: cover; /* Adjusts the image to cover the entire element */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents repeating the image */
