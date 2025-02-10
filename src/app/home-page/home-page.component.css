@@ -230,9 +230,9 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  gap: 10vw;
+  gap: 7vw;
   position: absolute; /* Absolute positioning relative to the container */
-  top: 43%; /* Adjust to position vertically */
+  top: 46%; /* Adjust to position vertically */
   left: 50%; /* Adjust to position horizontally */
   transform: translate(-50%, -50%); /* Center the overlay content */
 }
@@ -280,7 +280,7 @@
 }
 
 .design-section-image-svg {
-  width: 25vw;
+  width: 51vw;
 }
 
 .design-section-sub-text {
@@ -990,7 +990,7 @@
   }
 
   .design-section-image-svg{
-    width: 40vw;
+    width: 51vw;
     padding-bottom: 4vw;
   }
   .design-section-sub-text{
