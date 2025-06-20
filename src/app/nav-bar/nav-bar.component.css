@@ -7,14 +7,9 @@
   padding: 1vw 2vw 0vw 2vw;
 }
 
-.nav-logo-text{
-  color: #000000;
-  text-align: center;
-  font-family: Poppins;
-  font-size: 1.5vw;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+.nav-logo{
+  height: auto;
+  width: 3.2rem;
 
 }
 
@@ -179,7 +174,14 @@
     font-weight: 600;
 
   }
-    .social-media-links{
+
+  .nav-logo{
+    height: auto;
+    width: 2.8rem;
+
+  }
+
+  .social-media-links{
     gap: 1.5vw;
   }
   .social-media-links img{
